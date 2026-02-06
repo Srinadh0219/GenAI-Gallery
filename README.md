@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GenAIGallery – AI-Powered Image Generation & Sharing Platform (MERN Stack)
 
-## Available Scripts
+Problem Statement
 
-In the project directory, you can run:
+With the rise of generative AI, users lack a simple, unified platform to generate high-quality AI images, store them efficiently, and explore or share creations in a community-driven gallery. Existing tools are either complex, fragmented, or lack scalability and user-friendly design.
 
-### `npm start`
+Solution Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+GenAIGallery is a full-stack MERN application that enables users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Generate AI images in real time using text prompts
 
-### `npm test`
+Explore a gallery of AI-generated images
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Download and share generated content seamlessly
 
-### `npm run build`
+The platform integrates ClipDrop API for AI image generation and Cloudinary for optimized image storage and delivery, ensuring performance, scalability, and high image quality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔹 AI Image Generation using ClipDrop API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔹 Image Gallery with responsive grid layout
 
-### `npm run eject`
+🔹 Download & Share Images
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔹 Post Creation with prompt metadata
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 User Profiles to manage generated content
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔹 Interactive UI with notifications and feedback
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔹 Secure Environment Configuration using .env
 
-## Learn More
+🔹 Production Deployment on Netlify & Render
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Technology Stack
+Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React (Vite) – Fast and modern UI development
 
-### Code Splitting
+Tailwind CSS – Responsive and clean UI styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Axios – API communication
 
-### Analyzing the Bundle Size
+Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Node.js – Server-side runtime
 
-### Making a Progressive Web App
+Express.js – RESTful API development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MongoDB – NoSQL database for storing posts and user data
 
-### Advanced Configuration
+Mongoose – Schema modeling and data validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+AI & Media Services
 
-### Deployment
+ClipDrop API – AI-powered image generation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Cloudinary – Image storage, optimization, and delivery
 
-### `npm run build` fails to minify
+Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Netlify – Frontend hosting
+
+Render – Backend hosting
+
+System Architecture (High Level)
+
+User enters a text prompt on the frontend
+
+Request is sent to the Node.js/Express API
+
+Backend calls ClipDrop API to generate the image
+
+Generated image is uploaded to Cloudinary
+
+Image metadata is stored in MongoDB
+
+Image is displayed in the gallery UI
