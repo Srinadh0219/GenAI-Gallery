@@ -18,7 +18,7 @@ Download and share generated content seamlessly
 
 The platform integrates ClipDrop API for AI image generation and Cloudinary for optimized image storage and delivery, ensuring performance, scalability, and high image quality.
 
-3.Key Features
+4.Key Features
 
 🔹 AI Image Generation using ClipDrop API
 
@@ -36,7 +36,8 @@ The platform integrates ClipDrop API for AI image generation and Cloudinary for 
 
 🔹 Production Deployment on Netlify & Render
 
-4.Technology Stack
+5.Technology Stack
+
 Frontend
 
 React (Vite) – Fast and modern UI development
@@ -55,7 +56,7 @@ MongoDB – NoSQL database for storing posts and user data
 
 Mongoose – Schema modeling and data validation
 
-5.AI & Media Services
+6.AI & Media Services
 
 ClipDrop API – AI-powered image generation
 
@@ -63,11 +64,11 @@ Cloudinary – Image storage, optimization, and delivery
 
 Deployment
 
-6.Netlify – Frontend hosting
+Netlify – Frontend hosting
 
 Render – Backend hosting
 
-System Architecture (High Level)
+7.System Architecture
 
 User enters a text prompt on the frontend
 
