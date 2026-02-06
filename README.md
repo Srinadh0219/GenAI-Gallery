@@ -62,13 +62,13 @@ ClipDrop API – AI-powered image generation
 
 Cloudinary – Image storage, optimization, and delivery
 
-Deployment
+7.Deployment
 
 Netlify – Frontend hosting
 
 Render – Backend hosting
 
-7.System Architecture
+8.System Architecture
 
 User enters a text prompt on the frontend
 
