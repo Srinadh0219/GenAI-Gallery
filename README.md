@@ -1,12 +1,12 @@
-Project Title
+1. Project Title
 
 GenAIGallery – AI-Powered Image Generation & Sharing Platform (MERN Stack)
 
-Problem Statement
+2.Problem Statement
 
 With the rise of generative AI, users lack a simple, unified platform to generate high-quality AI images, store them efficiently, and explore or share creations in a community-driven gallery. Existing tools are either complex, fragmented, or lack scalability and user-friendly design.
 
-Solution Overview
+3.Solution Overview
 
 GenAIGallery is a full-stack MERN application that enables users to:
 
@@ -18,7 +18,7 @@ Download and share generated content seamlessly
 
 The platform integrates ClipDrop API for AI image generation and Cloudinary for optimized image storage and delivery, ensuring performance, scalability, and high image quality.
 
-Key Features
+3.Key Features
 
 🔹 AI Image Generation using ClipDrop API
 
@@ -36,7 +36,7 @@ Key Features
 
 🔹 Production Deployment on Netlify & Render
 
-Technology Stack
+4.Technology Stack
 Frontend
 
 React (Vite) – Fast and modern UI development
@@ -55,7 +55,7 @@ MongoDB – NoSQL database for storing posts and user data
 
 Mongoose – Schema modeling and data validation
 
-AI & Media Services
+5.AI & Media Services
 
 ClipDrop API – AI-powered image generation
 
@@ -63,7 +63,7 @@ Cloudinary – Image storage, optimization, and delivery
 
 Deployment
 
-Netlify – Frontend hosting
+6.Netlify – Frontend hosting
 
 Render – Backend hosting
 
